@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahianita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Athiti&display=swap');
+
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+body{
+    margin: 0;
+}
+
+.ocean{
+    position: fixed;
+    z-index: -1;
+    width: auto;
+}
+
+.topnav {
+    position: sticky;
+    top: 0;
+    background-color: #3216b2;
+    overflow: hidden;
+    list-style: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Bahianita;
+  }
+  
+  .topnav a:hover {
+    background-image: linear-gradient(to right, #2449ad, #2449ad , #1623b2);
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-image: linear-gradient(to right, #2449ad, #2449ad , #1623b2);
+    color: white;
+  }
+
+
+
+.main{
+    background-color: rgba(255, 255, 255, 0.444);
+    padding: 20px;
+    padding-bottom: 70px;
+}
+
+.main p{
+    font-family: Athiti;
+    font-size: 25px;
+}
+
+.main h3{
+    font-size: 30px;
+    font-family: Bahianita; 
+}
+
+.gluggi{
+    font-size: medium;
+}
+
+footer{
+    color: white;
+    display: grid;
+    justify-items: center;
+    font-size: 30px;
+    font-family: Bahianita;
+}
+
+.list{
+    list-style: none;
+    padding: 0%;
+}
+
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+  
+a:hover {
+    text-decoration: underline;
+    color: aliceblue;
+}
+  
+a:active {
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.dalk{
+    background-color: #1623b228;
+    margin: 30px;
+}
+.undir{
+    padding: 10px;
+    text-align: left;
+}
+
+.main a{
+    color: black;
+    font-weight: bold;
+}
+
+.top{
+    position: fixed;
+    padding: 10px;
+    color: #3254b1;
+    background: rgba(255, 255, 255, 0.649);
+    border-radius: 100px;
+    right: 15px;
+    bottom: 15px;
+}
+
+a.top:link {
+    color: #3254b1;
+}
+a.top:visited {
+    color: #3254b1;
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 25em) {
+    .gluggi {
+        width:24em; /*368px;*/ 
+        height:13em; /*207px;*/ 
+      }
+
+    .gluggi1{
+        width:24em; /*368px;*/ 
+        height:13em; /*207px;*/  
+    }
+ }
+
+@media screen and (min-width: 30em) {
+    .gluggi {
+        width:29em;     /*448px*/
+        height:15.75em; /*252px;*/ 
+   }
+
+   .gluggi1{
+        width:29em;     /*448px*/
+        height:15.75em; /*252px;*/
+   }
+ }
+
+@media screen and (min-width: 37.5em) {
+    .gluggi {
+      width:35em;     /*560px;*/
+      height:19.7em; /*315px;*/
+    }
+
+    .gluggi1{
+        width:35em;     /*560px;*/
+        height:19.7em; /*315px;*/
+    }
+    .safn {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      }
+
+ }
+
+ @media screen and (min-width:48em){
+    .gluggi {
+        width:14em; 
+        height:auto; 
+    }
+
+    .gluggi1{
+        width:46em; /*736px;*/ 
+        height:24.6em; /*414px;*/ 
+    }
+
+
+}
+@media screen and (min-width:60em){
+    .gluggi {
+        width:18em; 
+        height:auto;  
+    }
+    .gluggi1{
+        width:58em; /*950px;*/ 
+        height:33em; /*534px;*/ 
+    }
+    footer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .safn {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+      }
+
+}
+@media screen and (min-width: 80em) {
+    body{
+        max-width: 65%;
+        margin: 0 auto;
+    }
+
+    .ocean{
+        width: auto;
+        height: 100%;
+        margin: 0 -300px;
+    }
+
+    .topnav{
+        margin: 0 -20rem;
+        padding: 0.25rem 20rem;
+    }
+
+    .main{
+        margin: 0 -20rem;
+        padding: 0.25rem 20rem;
+    }
+
+    .gluggi1{
+        width:58em;
+        height:33em;
+      }
+
+
+    .pic{
+        width: auto;
+        margin: 0 -300px;
+    }
+
+  }
